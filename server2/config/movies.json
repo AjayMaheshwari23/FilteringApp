@@ -4,7 +4,7 @@
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/SS2_and_VMS_Eve.jpg/450px-SS2_and_VMS_Eve.jpg",
         "year": "2018",
         "color": ["Red"],
-        "maxspeed": "92",
+        "maxspeed": "300",
         "pulse" : "1"
     },
     {
@@ -12,7 +12,7 @@
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Soyuz_TMA-7_spacecraft2.jpg/330px-Soyuz_TMA-7_spacecraft2.jpg",
         "year": "1967",
         "color": ["yellow"],
-        "maxspeed": "92",
+        "maxspeed": "700",
         "pulse" : "0"
     },
     {
@@ -20,95 +20,95 @@
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Shenzhou_spacecraft_ground_test.png/390px-Shenzhou_spacecraft_ground_test.png",
         "year": "2003",
         "color": [ "Purple"],
-        "maxspeed": "90",
+        "maxspeed": "290",
         "pulse" : "1"
     },
     {
         "name": "Tiangong Space Station",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/S134e010665_-_rotated_and_darkend.jpg/330px-S134e010665_-_rotated_and_darkend.jpg",
         "year": "2021",
-        "color": ["White","Red"],
-        "maxspeed": "89",
+        "color": ["White"],
+        "maxspeed": "300",
         "pulse" : "1"
     },
     {
         "name": "Crew Dragon",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Crew_Dragon_docks_at_the_ISS.jpg/330px-Crew_Dragon_docks_at_the_ISS.jpg",
         "year": "2020",
-        "color": ["White","Black"],
-        "maxspeed": "88",
+        "color": ["Black"],
+        "maxspeed": "880",
         "pulse" : "0"
     },
     {
         "name": "Apollo",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Apollo_17_Command_Module_AS17-145-22261HR.jpg/330px-Apollo_17_Command_Module_AS17-145-22261HR.jpg",
         "year": "1968",
-        "color": ["White","Yellow"],
-        "maxspeed": "88",
+        "color": ["Yellow"],
+        "maxspeed": "480",
         "pulse" : "0"
     },
     {
         "name": "Mir",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Mir_Space_Station_viewed_from_Endeavour_during_STS-89.jpg/480px-Mir_Space_Station_viewed_from_Endeavour_during_STS-89.jpg",
         "year": "1999",
-        "color": ["Orange", "Blue"],
-        "maxspeed": "87",
+        "color": ["Orange"],
+        "maxspeed": "750",
         "pulse" : "1"
     },
     {
         "name": "Vostok",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Vostok_spacecraft.jpg/390px-Vostok_spacecraft.jpg",
         "year": "1961",
-        "color": ["White","Red"],
-        "maxspeed": "87",
+        "color": ["Red"],
+        "maxspeed": "150",
         "pulse" : "1"
     },
     {
         "name": "Mercury",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mercury-launch-vehicles.png/465px-Mercury-launch-vehicles.png",
         "year": "1963",
-        "color": ["Orange", "Purple"],
-        "maxspeed": "86",
+        "color": ["Orange"],
+        "maxspeed": "600",
         "pulse" : "1"
     },
     {
         "name": "Gemini",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Gemini_spacecraft.jpg/330px-Gemini_spacecraft.jpg",
         "year": "1966",
-        "color": ["White", "Music"],
-        "maxspeed": "85",
+        "color": ["White"],
+        "maxspeed": "500",
         "pulse" : "0"
     },
     {
         "name": "New Shepard",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/New_shepard_launch_june_19_2016.jpg/330px-New_shepard_launch_june_19_2016.jpg",
         "year": "2021",
-        "color": ["Yellow", "White"],
-        "maxspeed": "85",
+        "color": ["Yellow"],
+        "maxspeed": "550",
         "pulse" : "1"
     },
     {
         "name": "Voskhod",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Voskhod_1_and_2.svg/390px-Voskhod_1_and_2.svg.png",
         "year": "2019",
-        "color": ["Pink", "Blue"],
-        "maxspeed": "83",
+        "color": ["Pink"],
+        "maxspeed": "350",
         "pulse" : "0"
     },
     {
         "name": "Skylab",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Skylab_%28SL-4%29.jpg/360px-Skylab_%28SL-4%29.jpg",
         "year": "1974",
-        "color": ["Pink", "Purple"],
-        "maxspeed": "83",
+        "color": ["Purple"],
+        "maxspeed": "470",
         "pulse" : "0"
     },
     {
         "name": "Almaz ",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/%D0%A6%D0%B5%D0%BD%D1%82%D1%80_%D0%9A%D0%BE%D1%81%D0%BC%D0%BE%D0%BD%D0%B0%D0%B2%D1%82%D0%B8%D0%BA%D0%B8_%D0%B8_%D0%90%D0%B2%D0%B8%D0%B0%D1%86%D0%B8%D0%B8%2C_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0_45_-_Cosmonautics_and_Aviation_Center%2C_Moscow.jpg/330px-%D0%A6%D0%B5%D0%BD%D1%82%D1%80_%D0%9A%D0%BE%D1%81%D0%BC%D0%BE%D0%BD%D0%B0%D0%B2%D1%82%D0%B8%D0%BA%D0%B8_%D0%B8_%D0%90%D0%B2%D0%B8%D0%B0%D1%86%D0%B8%D0%B8%2C_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0_45_-_Cosmonautics_and_Aviation_Center%2C_Moscow.jpg",
         "year": "1977",
-        "color": ["Black", "Fantasy"],
-        "maxspeed": "83",
+        "color": ["Black"],
+        "maxspeed": "680",
         "pulse" : "1"
     }
  ]

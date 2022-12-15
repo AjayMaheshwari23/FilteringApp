@@ -23,7 +23,7 @@ const Sort = ({ sort, setSort }) => {
 			>
 				<option value="year">Year</option>
 				<option value="maxspeed">maxspeed</option>
-				{/* <option value="pulse">Pulse-Laser</option> */} 
+				<option value="pulse">Pulse-Laser</option> 
 			</select>
 			<button className={styles.arrow_btn} onClick={onArrowChange}>
 				<p className={styles.up_arrow}>&uarr;</p>

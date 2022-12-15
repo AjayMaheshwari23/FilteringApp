@@ -18,7 +18,9 @@ router.get("/movies", async (req, res) => {
 			"White",
 			"Yellow",
 			"Purple",
-			"Blue"
+			"Blue",
+			"Pink",
+			"Orange"
 		];
 
 		// const pulseOptions = [
@@ -58,7 +60,7 @@ router.get("/movies", async (req, res) => {
 
 	const total = 14;
 
-		console.log(" total yaha kjwbeab = " +  total);
+		console.log("  I am triggered = " +  total);
 		console.log("HELLO");
 
 		const response = {
