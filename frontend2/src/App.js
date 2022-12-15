@@ -8,13 +8,13 @@ import Pagination from "./components/Pagination";
 import Search from "./components/Search";
 import "./App.css";
 
-const base_url = process.env.REACT_APP_API_URL;
-
+const base_url = process.env.REACT_APP_API_URL; 
+let pulsecolors = ["1"];
 function App() {
 	const [obj, setObj] = useState({});
 	const [sort, setSort] = useState({ sort: "Max_speed", order: "desc" });
 	const [filterColor, setFilterColor] = useState([]);
-	const [filterPulse, setFilterPulse] = useState([]);
+	// const [filterPulse, setFilterPulse] = useState([]);
 	const [page, setPage] = useState(1);
 	const [search, setSearch] = useState("");
 
@@ -25,7 +25,7 @@ function App() {
 					sort.order
 				}&color=${filterColor.toString()}&search=${search}`;
 				const { data } = await axios.get(url);
-				// console.log(data);
+				console.log(data);
 				// console.log(filterColor);
 				// console.log(page);
 				setObj(data);
@@ -35,7 +35,7 @@ function App() {
 		};
 
 		getAllMovies();
-	}, [sort, filterColor,filterPulse, page, search]);
+	}, [sort, filterColor, page, search]);
 
 	return (
 		<div>
@@ -64,7 +64,7 @@ function App() {
 						/>
 						{/* <Pulse
 							filterPulse={filterPulse}
-							colors={obj.pulse ? obj.pulse : []}
+							colors={obj.pulsecolors ? obj.pulse : []}
 							setFilterPulse={(pulse) => setFilterPulse(pulse)}
 						/> */}
 					</div>

@@ -1,7 +1,9 @@
 import styles from "./styles.module.css";
 
 const Table = ({ movies }) => {
+	
 	return (
+		
 		<div className={styles.container}>
 			<div className={styles.heading}>
 				<p className={styles.title_tab}>Title</p>
@@ -25,16 +27,11 @@ const Table = ({ movies }) => {
 							</p>
 						))}
 					</div>
-					<div className={styles.maxspeed_container}>
-						{/* <img
-							src="./images/star.png"
-							alt="star"
-							className={styles.star_img}
-						/> */}
-						<p className={styles.movie_maxspeed}>{movie.maxspeed}</p>
+					<div className={styles.rating_container}>
+						<p className={styles.movie_rating}>{movie.maxspeed }</p>
 					</div>
-					<div className={styles.pulse_container}>
-						<p className={styles.movie_pulse}>{movie.maxspeed}</p>
+					<div className={styles.rating_container}>
+						<p className={styles.movie_rating}> {movie.pulse }</p>
 					</div>
 				</div>
 			))}

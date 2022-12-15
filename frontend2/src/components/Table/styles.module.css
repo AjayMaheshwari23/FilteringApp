@@ -103,19 +103,6 @@
 	justify-content: center;
 }
 
-.pulse_container {
-	flex: 1;
-	display: flex;
-	align-items: center;
-	justify-content: right;
-}
-
-.star_img {
-	width: 25px;
-	height: 25px;
-	margin-right: 4px;
-}
-
 .movie_rating {
 	font-size: 16px;
 	font-weight: 400;

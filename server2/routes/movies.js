@@ -10,20 +10,17 @@ router.get("/movies", async (req, res) => {
 		const search = req.query.search || "";
 		let sort = req.query.sort || "maxspeed";
 		let color = req.query.color || "All";
-		let pulse = req.query.pulse || "All";
+		let pulse = req.query.pulse || "1";
 
 		const colorOptions = [
-			"Action",
-			"Romance",
-			"Fantasy",
-			"Drama",
-			"Crime",
-			"Adventure",
-			"Thriller",
-			"Sci-fi",
-			"Music",
-			"Family",
+			"Red",
+			"Black",
+			"White",
+			"Yellow",
+			"Purple",
+			"Blue"
 		];
+
 		// const pulseOptions = [
 		//     "Has pulse laser",
 		// 	"Does not have pulse laser"	,
@@ -36,7 +33,7 @@ router.get("/movies", async (req, res) => {
 
 		// pulse === "All"
 		// 	? (pulse = [...pulseOptions])
-		// 	: (pulse = req.query.pulse.split(","));
+		// 	: (pulse = req.queery.pulse.split(","));
 
 
 		let sortBy = {};

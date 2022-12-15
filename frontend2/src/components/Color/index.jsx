@@ -11,8 +11,10 @@ const Color = ({ colors, filterColor, setFilterColor }) => {
 		}
 	};
 
+
+
 	return (
-		<div className={styles.container}>
+			<div className={styles.container}>
 			<h1 className={styles.heading}>Filter By Color</h1>
 			<div className={styles.color_container}>
 				{colors.map((color) => (
@@ -27,6 +29,7 @@ const Color = ({ colors, filterColor, setFilterColor }) => {
 					</div>
 				))}
 			</div>
+
 		</div>
 	);
 };
