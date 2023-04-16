@@ -1,4 +1,4 @@
-## Aeroplane FilteringApp
+### Aeroplane FilteringApp
 
 This web app filters Aeroplanes on the basis of colors and allows user to sort in 
 either ascending or descending order on the basis of maxspeed , year and pulse-laser.
